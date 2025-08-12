@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "CYOAI_with_admin.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "CYOAI_with_admin.py" }
+  ]
+}
